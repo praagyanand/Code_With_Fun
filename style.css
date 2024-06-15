@@ -1,0 +1,108 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: General sans;
+}
+html,body{
+      width: 100%;
+      height: 100vh;
+      background-color: #616060;
+      color: #ffffff;
+      overflow: hidden;
+}
+header{
+      width: 100%;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* padding: 0 20px; */
+}
+header h2{
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 500;
+      padding: 0 30px;
+}
+section{
+      /* background-color: #444444; */
+      position: relative;
+      width: 100%;
+      /* height: 100%; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* padding: 0 10px; */
+      margin: 10px;
+
+}
+.nav img{
+      padding-left: 45%;
+      top: 1px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.nav_left{
+      /* font-size: 25p/x; */
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+}   
+ .nav_left i{
+      font-size: 30px;
+      padding-right: 20px;
+
+}
+nav{
+      width: 100%;
+      padding-bottom: 0 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: red;
+      gap: 30px;
+}
+nav h2{
+      font-weight: 300;
+      padding: 10px;
+      font-size: 20px;
+}
+.card{
+      width: 100%;
+      height: 100vh;
+
+
+}
+.photos{
+      position: absolute;
+      top: 100%;
+      left: 5%;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 900;
+      padding: 22px;
+}.photos button{
+      padding:  10px 10px;
+      margin: 10px;
+}
+.items img{
+      overflow: hidden;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+}
+.slide{
+      width: 100%;
+      height: 100vh;
+      
+}
+img{
+      object-fit: cover;
+      object-position: center;
+      overflow: hidden;
+}
+
